@@ -1,0 +1,38 @@
+<template>
+  <main class="container mx-auto py-12 px-4">
+    <h1 class="text-3xl font-bold mb-6 text-primary text-center">Contacto</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div>
+        <h2 class="text-2xl font-semibold mb-4">Envíanos tu consulta</h2>
+        <ConsultationForm />
+      </div>
+      <div class="space-y-4">
+        <h2 class="text-2xl font-semibold">Datos de contacto</h2>
+        <p class="text-gray-700"><strong>Dirección:</strong> Don Bosco 715, Río Grande, Tierra del Fuego</p>
+        <p class="text-gray-700"><strong>Teléfono:</strong> <a href="tel:+542964540752" class="text-primary">+54 2964 540752</a></p>
+        <p class="text-gray-700"><strong>Email:</strong> <a href="mailto:estudiojuridicobg.clientes@gmail.com" class="text-primary">estudiojuridicobg.clientes@gmail.com</a></p>
+        <p class="text-gray-700"><strong>Horario de atención:</strong> Lunes a Viernes de 9:00 a 17:00</p>
+        <h3 class="text-xl font-semibold mt-6">Encuéntranos en el mapa</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d716.5046508202948!2d-67.70405619933084!3d-53.78569549764281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdbb30bf3c5c0803%3A0x9f5285bdcf058059!2sDon%20Bosco%20715%2C%20V9420%20Rio%20Grande%2C%20Tierra%20del%20Fuego!5e0!3m2!1ses!2sar!4v1698000000000!5m2!1ses!2sar"
+          width="100%"
+          height="250"
+          style="border:0"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+  </main>
+</template>
+
+<script lang="ts" setup>
+import ConsultationForm from '@/components/ConsultationForm.vue'
+</script>
+
+<style scoped>
+.text-primary {
+  color: #0A3C6E;
+}
+</style>

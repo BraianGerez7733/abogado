@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "slug": "accidentes-de-trabajo",
+    "nombre": "Accidentes de trabajo",
+    "titulo": "Reclamos por accidentes laborales",
+    "descripcion": "Asesoría integral para trabajadores que han sufrido accidentes en su lugar de trabajo, incluyendo caídas, lesiones por maquinaria y accidentes de construcción.",
+    "beneficios": [
+      "Primera consulta gratuita",
+      "Honorarios contingentes (no win–no fee)",
+      "Equipo especializado en derecho laboral"
+    ],
+    "imagen": "/assets/services/accidente-laboral.png",
+    "categoria": "principal",
+    "estado": "activo"
+  },
+  {
+    "id": 2,
+    "slug": "enfermedades-profesionales",
+    "nombre": "Enfermedades profesionales",
+    "titulo": "Reclamos por enfermedades profesionales",
+    "descripcion": "Gestión de reclamos por enfermedades derivadas del trabajo como hipoacusia, tendinitis o enfermedades respiratorias.",
+    "beneficios": [
+      "Representación ante ART y empleadores",
+      "Evaluación médica y legal",
+      "Tramitación de prestaciones e indemnizaciones"
+    ],
+    "imagen": "/assets/services/enfermedad-profesional.png",
+    "categoria": "principal",
+    "estado": "activo"
+  },
+  {
+    "id": 3,
+    "slug": "incapacidades-permanentes",
+    "nombre": "Incapacidades y prestaciones",
+    "titulo": "Reclamos por incapacidades permanentes",
+    "descripcion": "Acompañamos a los trabajadores con incapacidades permanentes en la gestión de prestaciones y pensiones.",
+    "beneficios": [
+      "Cálculo de grado de incapacidad",
+      "Negociación con aseguradoras",
+      "Acceso a prestaciones médicas y económicas"
+    ],
+    "imagen": "/assets/services/incapacidades-prestaciones.png",
+    "categoria": "secundaria",
+    "estado": "activo"
+  }
+]

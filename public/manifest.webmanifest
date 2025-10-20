@@ -1,0 +1,21 @@
+{
+  "name": "Estudio Jurídico Braian Geréz",
+  "short_name": "Web Abogado",
+  "description": "Abogado especializado en accidentes de trabajo y enfermedades profesionales en Río Grande (Tierra del Fuego) y Buenos Aires.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F5F5",
+  "theme_color": "#0A3C6E",
+  "icons": [
+    {
+      "src": "/assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
